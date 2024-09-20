@@ -3,6 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
 nav {
   background-color: #0c0c0c;
   display: flex;
