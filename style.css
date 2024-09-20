@@ -75,3 +75,58 @@ nav {
   height: 2px;
   background-color: #ffffff;
 }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0c0c0c;
+}
+
+.header__section-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header__section-sub__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10%;
+}
+.header__section-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header__section-title img {
+  margin-top: 2%;
+}
+
+.header__section-detail {
+  color: #dcca87;
+  font-size: 2.5rem;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+.header__section-welcome__img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.header__section-welcome__img img {
+  width: 100%;
+  height: 100%;
+}
+.header__section-text {
+  color: #aaaaaa;
+  margin-bottom: 7%;
+  max-width: 400px;
+}
