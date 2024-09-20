@@ -79,6 +79,7 @@ nav {
 .hamburger span {
   width: 28px;
   height: 2px;
+  margin: 3px 0;
   background-color: #ffffff;
 }
 
@@ -156,7 +157,8 @@ header {
 .about__section-about-us {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
+  text-align: start;
   justify-content: center;
 }
 .about__section-about-us h4 {
