@@ -1,0 +1,42 @@
+@media screen and (max-width: 1050px) {
+  .header__section-detail h1 {
+    font-size: 2rem;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__section-bg {
+    height: 300px;
+  }
+  .about__section-about-us h4 {
+    font-size: 2rem;
+  }
+  .about__section-bg img {
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header__section-detail h1 {
+    font-size: 1.5rem;
+  }
+  .header__section-text {
+    font-size: 12px;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top {
+    display: none;
+  }
+  .down {
+    display: flex;
+    margin-top: 6%;
+  }
+}
