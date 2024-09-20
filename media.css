@@ -39,4 +39,25 @@
     display: flex;
     margin-top: 6%;
   }
+  button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .about__section-bg {
+    flex-direction: column;
+    height: 150px;
+  }
+  .about__section-bg img {
+    max-height: 200px;
+  }
+  #about__section-header {
+    margin-top: 30%;
+  }
+  .about__section-about-us {
+    align-items: center;
+    text-align: center;
+  }
+  .about__section-about-us button {
+    margin-top: 7%;
+  }
 }
