@@ -33,6 +33,9 @@ nav {
   font-size: 15px;
   font-family: cursive;
   padding: 2% 5%;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 .nav__menu ul {
   display: inline-block;
