@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #0c0c0c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: cursive;
+  padding: 2% 5%;
+}
+.nav__menu ul {
+  display: inline-block;
+}
+
+.nav__menu ul li {
+  padding: 0 10px;
+}
+.nav__menu ul li a {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.nav__menu ul li a:hover {
+  color: gray;
+}
+.nav__login {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__login__line {
+  height: 18px;
+  width: 0.2px;
+  background-color: gray;
+}
+.nav__login-registration,
+.nav__login-book__table {
+  margin: 0 5px;
+  padding-bottom: 2%;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.nav__login-registration:hover,
+.nav__login-book__table:hover {
+  border-bottom: 1px solid #dcca87;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 2px;
+  background-color: #ffffff;
+}
