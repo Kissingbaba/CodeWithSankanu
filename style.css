@@ -111,6 +111,9 @@ header {
   flex-direction: column;
   align-items: flex-start;
 }
+.down {
+  display: none;
+}
 
 .header__section-title img {
   margin-top: 2%;
