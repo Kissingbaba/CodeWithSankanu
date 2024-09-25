@@ -182,3 +182,62 @@ header {
 .section-padding {
   padding: 8rem 6rem;
 }
+
+#special__Menu {
+  background-color: #0c0c0c;
+}
+
+.special__Menu__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.special__Menu__header {
+  text-align: center;
+  color: #aaaaaa;
+  margin-bottom: 10%;
+}
+.special__Menu__header h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.special__Menu__header h1 {
+  color: #dcca87;
+  font-size: 3rem;
+}
+.special__Menu__img {
+  max-width: 450px;
+  max-height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  /* margin: 0  5%; */
+}
+
+.special__Menu__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.special__Menu__wine {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15%;
+}
+
+.special__Menu__wine h1 {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.wine__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4% 0%;
+}
